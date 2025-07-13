@@ -123,13 +123,13 @@ sr_all_loss_dir = {
       }
     },
     "Statistics": {
-      "name": "PLoss",
+      "name": "Statistics",
       "parameter":  {
         "threshold": 0.01
       }
     },
     "Grid": {
-      "name": "MMSE",
+      "name": "Grid",
       "parameter":  {
         "threshold": 0.01,
         "beta1": 1,
@@ -138,7 +138,7 @@ sr_all_loss_dir = {
       }
     },
     "SPSC": {
-      "name": "CLoss",
+      "name": "SPSC",
       "parameter":  {
         "threshold": 0.01,
         "alpha": 1,
@@ -155,7 +155,6 @@ sr_all_loss_dir = {
       }
     }
   }
-
 
 
 
